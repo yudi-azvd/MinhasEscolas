@@ -3,8 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MinhasEscolas.Modelos;
 
-public class Escola
-{
+public class Escola {
     public int Id { get; set; }
 
     [Required, MinLength(4)]

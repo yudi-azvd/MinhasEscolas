@@ -8,11 +8,9 @@ namespace MinhasEscolas.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class EscolasController : ControllerBase
-{
+public class EscolasController : ControllerBase {
     [HttpGet]
-    public ActionResult<List<Escola>> ObterTodas()
-    {
+    public ActionResult<List<Escola>> ObterTodas() {
         var escolas = EscolasRepositorio.ObterTodas();
         return escolas;
     }
@@ -28,7 +26,7 @@ public class EscolasController : ControllerBase
     [HttpPost]
     public IActionResult Criar(Escola escola) {
         EscolasRepositorio.Adicionar(escola);
-        return CreatedAtAction(nameof(Obter), new {id = escola.Id}, escola);
+        return CreatedAtAction(nameof(Obter), new { id = escola.Id }, escola);
     }
 
     [HttpPut()]
@@ -43,8 +41,7 @@ public class EscolasController : ControllerBase
 
 
     [HttpGet("{num}/{deno}")]
-    public float Fracao(int num, int deno)
-    {
+    public float Fracao(int num, int deno) {
         return (float)num / deno;
     }
 }
