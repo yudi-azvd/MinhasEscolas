@@ -44,13 +44,16 @@ para mais informações.
 
 ## Melhorias
 
+Essas melhorias devem ser rápidas de serem feitas assistindo o vídeo. Não deve passar mais de 1 hora.
+
 - Adicionar uma rota para edição de uma escola
 - Adicionar uma rota para excluir uma escola
+- Corrigir o bug em [11:47](https://youtu.be/tMB0GwntJtA?si=2Of4fsEF44reuf6G&t=4307). Os IDs de cada entidade criada devem 
+ser diferentes
 
 ## Desafios
 
-Esses desafios envolvem assuntos não vistos no vídeo, 
-mas são bons pra treinar:
+Esses desafios envolvem assuntos não vistos no vídeo, por isso separe um tempo e tenha paciência. São bons pra treinar.
 
 - Adicionar uma rota pra receber um arquivo CSV
 com informações de escolas e adicioná-las no servidor
